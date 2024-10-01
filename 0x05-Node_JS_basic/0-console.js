@@ -1,8 +1,10 @@
 /**
  * Display message in console
- * @param {*} arg 
+ * @param {string} arg - message
  */
 function displayMessage(arg) {
-	console.log(arg);
+  // eslint-disable-next-line no-console
+  console.log(arg);
 }
-module.exports = displayMessage;
+
+export default displayMessage;
