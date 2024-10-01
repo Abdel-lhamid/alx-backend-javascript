@@ -6,4 +6,4 @@ function displayMessage(arg) {
   console.log(arg);
 }
 
-export default displayMessage;
+module.exports = displayMessage;
