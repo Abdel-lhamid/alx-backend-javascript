@@ -3,7 +3,6 @@
  * @param {string} arg - message
  */
 function displayMessage(arg) {
-  // eslint-disable-next-line no-console
   console.log(arg);
 }
 
