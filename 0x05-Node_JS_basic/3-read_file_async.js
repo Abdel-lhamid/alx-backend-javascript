@@ -8,14 +8,14 @@ function countStudents(fileName) {
         return;
       }
 
-      const lines = data.split('\n').filter(line => line.trim() !== '');
+      const lines = data.split('\n').filter((line) => line.trim() !== '');
       const students = lines.slice(1);
       const numberOfStudents = students.length;
 
       console.log(`Number of students: ${numberOfStudents}`);
 
       const fields = {};
-      students.forEach(student => {
+      students.forEach((student) => {
         const [firstname, , , field] = student.split(',');
         if (!fields[field]) {
           fields[field] = [];
